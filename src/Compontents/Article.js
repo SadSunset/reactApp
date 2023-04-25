@@ -8,7 +8,7 @@ class Article extends Component {
         const { article } = this.props
         const body = this.state.isOpen && <section className="card-text">{article.text}</section>;
         return (
-            <div className="card" style = {{width: '50%'}}>
+            <div className="card mx-auto" style = {{width: '50%'}}>
                 <div className="card-header">
                     <h2>
                         {article.title}
